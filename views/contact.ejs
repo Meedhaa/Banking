@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <style>
+
+
+
+ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin:0;
+    padding:0;
+  }
+  
+  ul li {
+    list-style:none;
+    margin:0 5px;
+  }
+  
+  ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height:80px;
+    transition: .5s;
+    padding-right: 14px;
+  }
+  
+  ul li a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:210px;
+    height:80px;
+    background: #fff;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+  ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+  
+  ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+  
+  ul li:hover .fa {
+    color:#fff;
+  }
+  
+  ul li:hover span {
+    color:#fff;
+  }
+  
+  ul li:hover:nth-child(1) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(1) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+  }
+  
+  ul li:hover:nth-child(2) a{
+    background: #00aced;
+  }
+  ul li:hover:nth-child(2) a:before{
+    background: #097aa5;
+  }
+  ul li:hover:nth-child(2) a:after{
+    background: #53b9e0;
+  }
+  
+  ul li:hover:nth-child(3) a{
+    background: #dd4b39;
+  }
+  ul li:hover:nth-child(3) a:before{
+    background: #b33a2b;
+  }
+  ul li:hover:nth-child(3) a:after{
+    background: #e66a5a;
+  }
+  
+  ul li:hover:nth-child(4) a{
+    background: #e4405f;
+  }
+  ul li:hover:nth-child(4) a:before{
+    background: #d81c3f;
+  }
+  ul li:hover:nth-child(4) a:after{
+    background: #e46880;
+  }
+
+  footer{
+    position:relative;
+    margin-top:34.2%;
+  }
+
+
+
+
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+    </style>
+
+    <title>BHARAT BANK</title>
+</head>
+<body>
+
+    <div class="container-fluid title">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#E98580;">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="/" ><img class="img"src="bank.png" alt="logo" style="display:inline-block"><h4 class="bb">BHARAT BANK</h4></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+           </div>
+         </div>
+       </nav>
+       </div>
+    
+    
+    <div class="container">
+
+        <ul>
+            <li>
+              <a href="https://www.facebook.com/meedha.wadhwa/" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span> - Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/meedha-wadhwa-b950b817a/" target="_blank">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <span> - Linkedin</span>
+              </a>
+            </li>
+            <!-- <li>
+              <a href="https://www.instagram.com/rmayank99/?hl=en" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span> - Instagram</span>
+              </a>
+            </li> -->
+            <li>
+              <a href="https://www.instagram.com/__.meedhaa.__/" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span> - Instagram</span>
+              </a>
+            </li>
+
+    </div>
+    
+    
+    
+    
+    
+    <footer>
+        <p>&copy; <%= yearvar %></p>
+        <h3>THE SPARK FOUNDATION PROJECT</h3>
+        <h3>MEEDHA</h3>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>

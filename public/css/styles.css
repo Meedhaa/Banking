@@ -1,0 +1,80 @@
+body{
+    background-color:rgba(248, 244, 244, 0.719);
+    margin:0;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Special Elite', cursive;
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.blogo{
+    margin:0;
+}
+.b{
+    text-decoration: none;
+    color:white;
+}
+.title{
+    background-color: #E98580;
+    
+}
+.img{
+    width:15%;
+    border-radius: 100%;
+}
+.bb{
+    margin-left:2rem;
+    display: inline-block;
+}
+.customertable{
+  /* display:flex;
+  justify-content: center; */
+  margin-top:2rem;
+  margin-bottom:2rem;
+  text-align: center;
+
+
+}
+table,th,td {
+    border: 2px solid white;
+} 
+.transferform{
+    display:flex;
+    justify-content: center;
+    margin-top:10%;
+    margin-bottom:10%;
+
+}
+.bttn{
+    margin-top:10%;
+    margin-left:43%;
+}
+
+footer{
+    background-color:#E98580;
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: -7px;
+}
+
+th{
+    background-color: black;
+    color:white;
+}
+td{
+    background-color:#E98580;
+    color:white
+}
+.transform{
+    background-color: #E98580;
+    padding:25px;
+    border-radius: 9%;
+}
+
+
+
+
+
